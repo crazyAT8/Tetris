@@ -1,0 +1,89 @@
+https://github.com/Divine203/Tetris/tree/main
+URL: https://www.youtube.com/watch?v=SgVjRZ90viI&list=WL&index=7
+
+
+- start by rendering an arena
+
+    const cvs = document.querySelector('canvas')
+    const ctx = cvs.getContext('2d')
+
+
+JS file
+
+class Tetris 
+
+    constructor() 
+        ctx 
+        tPiece
+        lPiece
+        jPiece
+        iPiece
+        oPiece
+        sPiece
+        zPiece
+        scoreTxt
+        piecesShapes
+        piecesId
+        showNextPiece
+        score 
+        pieces 
+        player
+        arena
+
+    createPiece()
+
+    createMatrix()
+
+    draw()
+
+    checkLineClear()
+
+    drawMatrix()
+
+    collide()
+
+    createNextPiece()
+
+    reset()
+
+    merge()
+
+    rotate()
+
+    pieceDrop()
+
+    pieceMove()
+    
+    pieceRotate()
+    
+    showNextPiece()
+
+update()
+
+variables:
+    cvs 
+    ctx 
+    tPiece
+    lPiece
+    jPiece
+    iPiece
+    oPiece
+    sPiece
+    zPiece
+    scoreTxt
+    piecesShapes
+    piecesId
+    showNextPiece
+    score 
+    pieces 
+    player
+    arena
+    matrix
+    newRow 
+    m 
+    p 
+    nextPiece 
+    tetrisGame
+    dropCount
+    dropInterval
+    lastTime
